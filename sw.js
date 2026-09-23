@@ -1,5 +1,8 @@
-const CACHE_NAME = 'cycle-tracker-v1';
-const APP_SHELL = ['./', './index.html', './manifest.json', './icon.svg'];
+const CACHE_NAME = 'cycle-tracker-v2';
+const APP_SHELL = [
+  './', './index.html', './manifest.json', './icon.svg',
+  './icon-192.png', './icon-512.png', './icon-180.png', './icon-512-maskable.png'
+];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
